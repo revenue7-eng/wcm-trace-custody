@@ -1,0 +1,10 @@
+{
+  "holders": {
+    "deploying-customer-lab": "cd14b37f956e953194ff7fb73b3d81dcc561d61a7538094b7c3e1a643ee5f3aa",
+    "model-builder-lab": "174553b456dddfc6908ecab1c101fe6ab21e2baa0617795b7d43a63482993fd5"
+  },
+  "manifest_id": "sha256:7f7c0982d8eb5d031c19b32148413806a6c8220c278f272c6c9932ee8586f005",
+  "max_seconds": 60.0,
+  "threshold": 2,
+  "weights_hash": "sha256:1dc6b9e6667306e2614bf09ad097f79e8ba6bbe7257a95694d7411a5056edbda"
+}

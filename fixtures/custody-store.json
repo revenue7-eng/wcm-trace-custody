@@ -1,0 +1,263 @@
+{
+  "decisions": {
+    "sha256:0468b52b5515be2f872a592d065185576c89e24fc7dd7b55aec0b3b2594fdb25": {
+      "algorithm": "Ed25519",
+      "challenge_nonce_hash": "sha256:5ffff4ba2989c5640cc9abae33517d1ba237795e0db4ab750c2c0ca660cee82d",
+      "checks": [
+        {
+          "detail": null,
+          "name": "nonce_fresh",
+          "passed": true
+        },
+        {
+          "detail": "exact manifest identity is pinned",
+          "name": "manifest_authorized",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "channel_binding",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "cpu_platform_allowed",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "assurance_tier",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "serving_image",
+          "passed": true
+        },
+        {
+          "detail": "confidential-compute mode waived by require_cc_mode: false",
+          "name": "gpu",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "memory_fingerprint",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "platform_integrity",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "platform_instance_allowed",
+          "passed": true
+        },
+        {
+          "detail": "configured revoked-key set only; no vendor revocation service was asked",
+          "name": "attestation_revocation",
+          "passed": true
+        },
+        {
+          "detail": "waived by require_evidence_verification: false: structural trust only (no cryptographic quote verification)",
+          "name": "cpu_quote_verified",
+          "passed": true
+        },
+        {
+          "detail": "waived by require_evidence_verification: false: structural trust only (no cryptographic GPU verification)",
+          "name": "gpu_report_verified",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "key_available",
+          "passed": true
+        }
+      ],
+      "evidence_expires_at": null,
+      "evidence_hash": "sha256:6d984a1419167ecbcde0b0c72d66f1cbbc4d541b766b7c6f39bb4acd2724a660",
+      "expires_at": "2026-11-01T12:05:00Z",
+      "issued_at": "2026-11-01T12:00:00Z",
+      "kind": "wcm-renewal/v1",
+      "manifest_hash": "sha256:6ee055e5f0726d40ff0cdce3c80b251083283513f46c18c6ede75b50383659b0",
+      "public_key_b64url": "Kay64UG8yvCyLhqU000LxzYeUm0L_hLIl5S8kyKWbdc",
+      "renewed": true,
+      "signature_b64url": "1kINb6wKMZUjC9dDyt8F7FLaOgr-PvpBxAvlsvBBeqp196FcX_h27FOvXKVR3MtGibmRvLU4OTsjfPitIJxkBQ",
+      "weights_hash": "sha256:4a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b02"
+    },
+    "sha256:652cfb52bfb9e68a7b993ad371e44e76b90e81572f38bfc9aa4060ead4b87ab1": {
+      "algorithm": "Ed25519",
+      "challenge_nonce_hash": "sha256:058aeba28ae0999cf2a2acbc4f26c6fad1bbac39ecb3f60933e083ce0cc57ef4",
+      "checks": [
+        {
+          "detail": null,
+          "name": "nonce_fresh",
+          "passed": true
+        },
+        {
+          "detail": "exact manifest identity is pinned",
+          "name": "manifest_authorized",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "channel_binding",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "cpu_platform_allowed",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "assurance_tier",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "serving_image",
+          "passed": true
+        },
+        {
+          "detail": "confidential-compute mode waived by require_cc_mode: false",
+          "name": "gpu",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "memory_fingerprint",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "platform_integrity",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "platform_instance_allowed",
+          "passed": true
+        },
+        {
+          "detail": "configured revoked-key set only; no vendor revocation service was asked",
+          "name": "attestation_revocation",
+          "passed": true
+        },
+        {
+          "detail": "waived by require_evidence_verification: false: structural trust only (no cryptographic quote verification)",
+          "name": "cpu_quote_verified",
+          "passed": true
+        },
+        {
+          "detail": "waived by require_evidence_verification: false: structural trust only (no cryptographic GPU verification)",
+          "name": "gpu_report_verified",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "key_available",
+          "passed": true
+        }
+      ],
+      "evidence_expires_at": null,
+      "evidence_hash": "sha256:e56f5235c79bdb8985b984084da0aaff52d6d3284807e147d859cca0bab4c94a",
+      "expires_at": "2026-11-01T12:05:00Z",
+      "issued_at": "2026-11-01T12:00:00Z",
+      "kind": "wcm-renewal/v1",
+      "manifest_hash": "sha256:6ee055e5f0726d40ff0cdce3c80b251083283513f46c18c6ede75b50383659b0",
+      "public_key_b64url": "A6EHv_POEL4dcN0Y50vAmWfk1jCbpQ1fHdyGZBJVMbg",
+      "renewed": true,
+      "signature_b64url": "lkLdCYDIzBEkoIiB3gvMvFPkVeze-TT5avw91iziE_HjQjhZe_dHVG6hMabcnRpQHjRVYdGuPgNSXVF9bMYGAQ",
+      "weights_hash": "sha256:4a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b02"
+    },
+    "sha256:884e988368426fce750cc9ae2e7410813505d2919b58e46d3ac1f473612d04ee": {
+      "algorithm": "Ed25519",
+      "challenge_nonce_hash": "sha256:8979214e00df664bd4461aa043287c7e0d0fea850a486afef13c312b53130fef",
+      "checks": [
+        {
+          "detail": null,
+          "name": "nonce_fresh",
+          "passed": true
+        },
+        {
+          "detail": "exact manifest identity is pinned",
+          "name": "manifest_authorized",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "channel_binding",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "cpu_platform_allowed",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "assurance_tier",
+          "passed": true
+        },
+        {
+          "detail": "measurement not in accepted_measurements",
+          "name": "serving_image",
+          "passed": false
+        },
+        {
+          "detail": "confidential-compute mode waived by require_cc_mode: false",
+          "name": "gpu",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "memory_fingerprint",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "platform_integrity",
+          "passed": true
+        },
+        {
+          "detail": "not required",
+          "name": "platform_instance_allowed",
+          "passed": true
+        },
+        {
+          "detail": "configured revoked-key set only; no vendor revocation service was asked",
+          "name": "attestation_revocation",
+          "passed": true
+        },
+        {
+          "detail": "waived by require_evidence_verification: false: structural trust only (no cryptographic quote verification)",
+          "name": "cpu_quote_verified",
+          "passed": true
+        },
+        {
+          "detail": "waived by require_evidence_verification: false: structural trust only (no cryptographic GPU verification)",
+          "name": "gpu_report_verified",
+          "passed": true
+        },
+        {
+          "detail": null,
+          "name": "key_available",
+          "passed": true
+        }
+      ],
+      "evidence_expires_at": null,
+      "evidence_hash": "sha256:76f784c4ea8378b0b5929f29ae7ed3934c70722d1eff3c0d90915ed48e62f794",
+      "expires_at": "2026-11-01T12:05:00Z",
+      "issued_at": "2026-11-01T12:00:00Z",
+      "kind": "wcm-renewal/v1",
+      "manifest_hash": "sha256:6ee055e5f0726d40ff0cdce3c80b251083283513f46c18c6ede75b50383659b0",
+      "public_key_b64url": "A6EHv_POEL4dcN0Y50vAmWfk1jCbpQ1fHdyGZBJVMbg",
+      "renewed": false,
+      "signature_b64url": "gbh8weNcRDY7yvIeZxDVipqC7VoXjRh8p72PkzbqthP2Ag_VmOhamZEnF-asHPYhUWhbCfuQBrgg3azHIxQMAA",
+      "weights_hash": "sha256:4a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b02"
+    }
+  },
+  "resolver": "https://custody.example.org/broker"
+}

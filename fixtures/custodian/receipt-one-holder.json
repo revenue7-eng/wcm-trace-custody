@@ -1,0 +1,70 @@
+{
+  "event_reference": {
+    "at": "2026-01-15T10:00:01.650000+00:00",
+    "seq": 1,
+    "source": "synthetic journal metadata, unsigned"
+  },
+  "holders": [
+    {
+      "checks": [
+        {
+          "name": "synthetic_gate_a",
+          "passed": true
+        },
+        {
+          "name": "synthetic_gate_b",
+          "passed": true
+        }
+      ],
+      "evidence": {
+        "cpu": {
+          "nonce_echo": "f3554b5d784a0e5992eafa2301e8a89a81ccd24508b8d26f9f29ba9df6922b7d",
+          "platform": "synthetic",
+          "quote_b64": "c3ludGhldGljIHF1b3RlLCBub3QgaGFyZHdhcmUgZXZpZGVuY2U6IG1vZGVsLWJ1aWxkZXItbGFi",
+          "serving_image_measurement": "sha256:6cf50a5a4e6c3a9e49ad512111541ab03c458b7f9d184a1b630b04e62fc7e17f",
+          "transport_public_key": "b8debdad5aec5feaad2989035a8d80c559aa27c1ff62e5bd224b533286c37893"
+        }
+      },
+      "grant": {
+        "payload": {
+          "audit": {
+            "checks_sha256": "13069d34b9f93bfd1ab18e93e173f0074dd05b5abf75a197ef10d0c939661c1c",
+            "cpu_quote_sha256": "25b36a14d43eb65ab17449aa6bef877280e8184500841ca171b699cefbd19ee9",
+            "evidence_sha256": "5a0ca07fc9df2c780295755fa2d1f6aac878b56cf3d3d08263c4c94c24b2bc53",
+            "holder_policy": {
+              "grant_max_seconds": 60.0
+            },
+            "version": "custodian-holder-audit-v1",
+            "wcm_checks_sha256": "e6c8995924e2d94f8837b710d0fbfe6625940a56f7061334403c15616068ab8a"
+          },
+          "expires_at": "2026-01-15T10:01:00.250000+00:00",
+          "holder_id": "model-builder-lab",
+          "issued_at": "2026-01-15T10:00:00.250000+00:00",
+          "manifest_id": "sha256:7f7c0982d8eb5d031c19b32148413806a6c8220c278f272c6c9932ee8586f005",
+          "max_seconds": 60.0,
+          "nonce": "f3554b5d784a0e5992eafa2301e8a89a81ccd24508b8d26f9f29ba9df6922b7d",
+          "sealed_sha256": "051c04cf7225461a087b7b6815cd39d3ee36f8e82be4ab981465d30f79061ee9",
+          "serving_measurement": "sha256:6cf50a5a4e6c3a9e49ad512111541ab03c458b7f9d184a1b630b04e62fc7e17f",
+          "transport_public_key": "b8debdad5aec5feaad2989035a8d80c559aa27c1ff62e5bd224b533286c37893",
+          "version": "custodian-release-grant-v1",
+          "weights_hash": "sha256:1dc6b9e6667306e2614bf09ad097f79e8ba6bbe7257a95694d7411a5056edbda"
+        },
+        "signature_hex": "67a53b0f48f56e7a131e13df771e4b0ac20a9306a781016c644595f83e28991eee166092c8ba3d0984c2669c52bbb4eec5d26cd27debdcfdb9e0ff37ff002303"
+      },
+      "holder_id": "model-builder-lab",
+      "wcm_checks": [
+        {
+          "name": "synthetic_wcm_gate",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "scope": "Synthetic fixture. Holder authorization only; not proof of inference.",
+  "utc_interval": {
+    "basis": "latest grant start to earliest grant expiry",
+    "not_after": "2026-01-15T10:01:00.250000+00:00",
+    "not_before": "2026-01-15T10:00:00.250000+00:00"
+  },
+  "version": "custodian-release-receipt-v1"
+}

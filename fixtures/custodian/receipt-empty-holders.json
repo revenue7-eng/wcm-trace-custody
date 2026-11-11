@@ -1,0 +1,15 @@
+{
+  "event_reference": {
+    "at": "2026-01-15T10:00:01.650000+00:00",
+    "seq": 1,
+    "source": "synthetic journal metadata, unsigned"
+  },
+  "holders": [],
+  "scope": "Synthetic fixture. Holder authorization only; not proof of inference.",
+  "utc_interval": {
+    "basis": "latest grant start to earliest grant expiry",
+    "not_after": "2026-01-15T10:01:00.250000+00:00",
+    "not_before": "2026-01-15T10:00:01.500000+00:00"
+  },
+  "version": "custodian-release-receipt-v1"
+}

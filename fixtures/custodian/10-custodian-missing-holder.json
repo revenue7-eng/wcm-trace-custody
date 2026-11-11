@@ -1,0 +1,50 @@
+{
+  "appraisal": {
+    "status": "none",
+    "verifier": "https://verifier.example.org"
+  },
+  "build_provenance": {
+    "digest": "sha256:eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "slsa_level": 1
+  },
+  "cnf": {
+    "jwk": {
+      "crv": "Ed25519",
+      "kty": "OKP",
+      "x": "JUO5L_EJVRFHatyDadtt3JM2ZaEZeN2hQE7hBmypVZ0"
+    }
+  },
+  "data_class": "confidential",
+  "eat_profile": "tag:agentrust-io.com,2026:trace-v0.2",
+  "iat": 1793534400,
+  "model": {
+    "model_id": "synthetic-model",
+    "provider": "example",
+    "weights_digest": "sha256:1dc6b9e6667306e2614bf09ad097f79e8ba6bbe7257a95694d7411a5056edbda"
+  },
+  "origin": {
+    "ingested_at": 1793534400,
+    "kind": "log-import",
+    "producer": "synthetic-receipt-generator",
+    "source_event_id": "1"
+  },
+  "policy": {
+    "bundle_hash": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "enforcement_mode": "enforce"
+  },
+  "references": [
+    {
+      "digest": "sha256:030c306bb7979295ffaeabf55e13fa5e0274c4470fad19315cf13858cdc4aa9a",
+      "id": "sha256:dba8abf56006588469cddd5bc7c6e41a1ed70add616a87f4115389a74a79c20a",
+      "rel": "authorized-intent",
+      "resolver": "https://custody.example.org/receipts",
+      "retention": "P1Y"
+    }
+  ],
+  "runtime": {
+    "measurement": "sha256:6cf50a5a4e6c3a9e49ad512111541ab03c458b7f9d184a1b630b04e62fc7e17f",
+    "platform": "software-only"
+  },
+  "signature": "FH-Fp9xUkbmukVYDO3IeWsKRB6xzxPa01GjZtZVBGqZrh8Vphfkk8QCUBYaOb17HObYD0gipwZop_8FRrKWMBg",
+  "subject": "spiffe://custody.example.org/deployment/synthetic"
+}

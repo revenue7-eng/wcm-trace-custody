@@ -1,0 +1,44 @@
+{
+  "appraisal": {
+    "status": "none",
+    "verifier": "https://verifier.example.org"
+  },
+  "build_provenance": {
+    "digest": "sha256:eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "slsa_level": 1
+  },
+  "cnf": {
+    "jwk": {
+      "crv": "Ed25519",
+      "kty": "OKP",
+      "x": "JUO5L_EJVRFHatyDadtt3JM2ZaEZeN2hQE7hBmypVZ0"
+    }
+  },
+  "data_class": "confidential",
+  "eat_profile": "tag:agentrust-io.com,2026:trace-v0.2",
+  "iat": 1793620800,
+  "model": {
+    "model_id": "example-model",
+    "provider": "example",
+    "weights_digest": "sha256:4a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b024a1c9b02"
+  },
+  "policy": {
+    "bundle_hash": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "enforcement_mode": "enforce"
+  },
+  "references": [
+    {
+      "digest": "sha256:438f5252f13d6164a0fcc5167e41fd473c98cc289bb6c1d4c114ca5fe2fdac01",
+      "id": "sha256:0468b52b5515be2f872a592d065185576c89e24fc7dd7b55aec0b3b2594fdb25",
+      "rel": "authorized-intent",
+      "resolver": "https://custody.example.org/broker",
+      "retention": "P1Y"
+    }
+  ],
+  "runtime": {
+    "measurement": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "platform": "software-only"
+  },
+  "signature": "Fmzx2ObLWUU_IRCtI05qMgYvOKUD9nvzt3KSVcD9zudIHmVwo6AWUFr4gtd41t-8PPcKdBJt0f5lTJHinjCyDg",
+  "subject": "spiffe://trust.example.org/workload/inference"
+}

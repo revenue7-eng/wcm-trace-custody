@@ -1,0 +1,64 @@
+{
+  "cases": {
+    "08-custodian-authorized.json": {
+      "store": "receipt.json",
+      "verdict": "authorized-execution-time-unestablished"
+    },
+    "09-custodian-grant-altered-after-issue.json": {
+      "store": "receipt-grant-altered.json",
+      "verdict": "release-contradicted"
+    },
+    "10-custodian-missing-holder.json": {
+      "store": "receipt-one-holder.json",
+      "verdict": "quorum-not-met"
+    },
+    "11-custodian-duplicate-holder.json": {
+      "store": "receipt-duplicate-holder.json",
+      "verdict": "quorum-not-met"
+    },
+    "12-custodian-unpinned-holder.json": {
+      "store": "receipt-unpinned-holder.json",
+      "verdict": "untrusted-authorizer"
+    },
+    "13-custodian-different-weights.json": {
+      "store": "receipt.json",
+      "verdict": "different-weights"
+    },
+    "14-custodian-evidence-altered.json": {
+      "store": "receipt-evidence-altered.json",
+      "verdict": "different-evidence"
+    },
+    "15-custodian-label-changed.json": {
+      "store": "receipt-label-changed.json",
+      "verdict": "authorized-execution-time-unestablished"
+    },
+    "16-custodian-exceeds-signed-limit.json": {
+      "store": "receipt-exceeds-signed-limit.json",
+      "verdict": "exceeds-signed-limit"
+    },
+    "17-custodian-repeated-sealed.json": {
+      "store": "receipt-repeated-sealed.json",
+      "verdict": "repeated-grant-binding"
+    },
+    "18-custodian-repeated-challenge.json": {
+      "store": "receipt-repeated-challenge.json",
+      "verdict": "repeated-grant-binding"
+    },
+    "19-custodian-extra-envelope-member.json": {
+      "store": "receipt-extra-envelope-member.json",
+      "verdict": "malformed-receipt"
+    },
+    "20-custodian-empty-holders.json": {
+      "store": "receipt-empty-holders.json",
+      "verdict": "malformed-receipt"
+    }
+  },
+  "expected_runtime": "sha256:6cf50a5a4e6c3a9e49ad512111541ab03c458b7f9d184a1b630b04e62fc7e17f",
+  "resolver": "https://custody.example.org/receipts",
+  "synthetic": true,
+  "trace_signer_jwk": {
+    "crv": "Ed25519",
+    "kty": "OKP",
+    "x": "JUO5L_EJVRFHatyDadtt3JM2ZaEZeN2hQE7hBmypVZ0"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "cases": {
+    "01-release-confirmed.json": {
+      "event_time": "2026-11-01T12:01:00+00:00",
+      "store": "custody-store.json",
+      "verdict": "release-confirmed"
+    },
+    "02-decision-altered-after-issue.json": {
+      "event_time": "2026-11-01T12:01:00+00:00",
+      "store": "custody-store-altered.json",
+      "verdict": "release-contradicted"
+    },
+    "03-decision-is-a-denial.json": {
+      "event_time": "2026-11-01T12:01:00+00:00",
+      "store": "custody-store.json",
+      "verdict": "not-a-release"
+    },
+    "04-reference-unresolvable.json": {
+      "event_time": "2026-11-01T12:01:00+00:00",
+      "store": "custody-store.json",
+      "verdict": "release-unconfirmed"
+    },
+    "05-execution-after-window.json": {
+      "event_time": "2026-11-01T12:15:00+00:00",
+      "store": "custody-store.json",
+      "verdict": "outside-window"
+    },
+    "06-different-weights.json": {
+      "event_time": "2026-11-01T12:01:00+00:00",
+      "store": "custody-store.json",
+      "verdict": "different-weights"
+    },
+    "07-unpinned-authorizer.json": {
+      "event_time": "2026-11-01T12:01:00+00:00",
+      "store": "custody-store.json",
+      "verdict": "untrusted-authorizer"
+    }
+  },
+  "pinned_broker_keys": [
+    "A6EHv_POEL4dcN0Y50vAmWfk1jCbpQ1fHdyGZBJVMbg"
+  ],
+  "resolver": "https://custody.example.org/broker",
+  "trace_signer_jwk": {
+    "crv": "Ed25519",
+    "kty": "OKP",
+    "x": "JUO5L_EJVRFHatyDadtt3JM2ZaEZeN2hQE7hBmypVZ0"
+  }
+}

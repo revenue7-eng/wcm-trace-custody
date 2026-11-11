@@ -1,0 +1,53 @@
+{
+  "sha256:0468b52b5515be2f872a592d065185576c89e24fc7dd7b55aec0b3b2594fdb25": {
+    "cpu": {
+      "assurance_tier": "hardware-attested",
+      "attestation_key_cache_age_seconds": 0,
+      "attestation_key_id": "vcek-mock-0001",
+      "nonce_echo": "27fc676b186278ddd2e7395a2272d1fab601077bacdc8005f3075bdf6f5251f1",
+      "platform": "amd-sev-snp",
+      "serving_image_measurement": "sha256:5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d",
+      "transport_public_key": "1c00f145e6d6846d8314e9539c351b8bdfe40a465465877c8bf85ffac726c44e"
+    },
+    "gpu": {
+      "cc_mode": true,
+      "measurement": "nvidia-rim:driver+vbios golden measurement id",
+      "nonce_echo": "27fc676b186278ddd2e7395a2272d1fab601077bacdc8005f3075bdf6f5251f1",
+      "platform": "nvidia-cc-gpu"
+    }
+  },
+  "sha256:652cfb52bfb9e68a7b993ad371e44e76b90e81572f38bfc9aa4060ead4b87ab1": {
+    "cpu": {
+      "assurance_tier": "hardware-attested",
+      "attestation_key_cache_age_seconds": 0,
+      "attestation_key_id": "vcek-mock-0001",
+      "nonce_echo": "91935426272e1a6df2adcaecf3f4a1014dd774d762fede34b97c5e155a87b9d4",
+      "platform": "amd-sev-snp",
+      "serving_image_measurement": "sha256:5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d5e2d",
+      "transport_public_key": "1c00f145e6d6846d8314e9539c351b8bdfe40a465465877c8bf85ffac726c44e"
+    },
+    "gpu": {
+      "cc_mode": true,
+      "measurement": "nvidia-rim:driver+vbios golden measurement id",
+      "nonce_echo": "91935426272e1a6df2adcaecf3f4a1014dd774d762fede34b97c5e155a87b9d4",
+      "platform": "nvidia-cc-gpu"
+    }
+  },
+  "sha256:884e988368426fce750cc9ae2e7410813505d2919b58e46d3ac1f473612d04ee": {
+    "cpu": {
+      "assurance_tier": "hardware-attested",
+      "attestation_key_cache_age_seconds": 0,
+      "attestation_key_id": "vcek-mock-0001",
+      "nonce_echo": "e9545b64721c010a4cb4f2d562b7867860b26e3b937ba46b95c3b4ad74cd2ab5",
+      "platform": "amd-sev-snp",
+      "serving_image_measurement": "sha256:abababababababababababababababababababababababababababababababab",
+      "transport_public_key": "1c00f145e6d6846d8314e9539c351b8bdfe40a465465877c8bf85ffac726c44e"
+    },
+    "gpu": {
+      "cc_mode": true,
+      "measurement": "nvidia-rim:driver+vbios golden measurement id",
+      "nonce_echo": "e9545b64721c010a4cb4f2d562b7867860b26e3b937ba46b95c3b4ad74cd2ab5",
+      "platform": "nvidia-cc-gpu"
+    }
+  }
+}
